@@ -1,0 +1,17 @@
+# Daily family GitHub Pages check — kept by seat #16 of crew 12–18.
+# Edit pages.txt to add/remove sites. Uses only the default GITHUB_TOKEN; no secrets.
+name: Family pages check
+on:
+  schedule:
+    - cron: '17 15 * * *'   # ~8:17 AM Pacific
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every family page
+        run: bash scripts/pages_check.sh
