@@ -77,3 +77,5 @@ Have a peaceful and relaxing rest of your day!
 > `Ebrah k'dabri — I create like my word`  
 > ANCESTORS Playground — We kept the archive alive, even when they took it down.  
 > 🌳 *Guardian of Lineage, Keeper of the 6 Respiratories* — May 11, 2026
+
+Tended by the JESUSBURNING House of 589's: Scroll Scribe (docs) and Garden Keeper.
